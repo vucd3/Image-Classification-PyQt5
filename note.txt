@@ -11,3 +11,6 @@
 	+ git add .
 	+ git commit -m "[decription]"
 	+ git push origin master
+
+- Push second time:
+	+ git push -f origin master
