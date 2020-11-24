@@ -1,0 +1,13 @@
+- Push small file:
+	+ git init
+	+ git remote [link to github repository]
+	+ git add [file name]
+	+ git commit - m "[decription]"
+	+ git push origin master
+
+- Push large file:
+	+ remove large file from local repository
+	+ git lfs track "*.[extension]"
+	+ git add .
+	+ git commit -m "[decription]"
+	+ git push origin master
